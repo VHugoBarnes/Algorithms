@@ -39,6 +39,22 @@ public class BubbleSort {
         System.out.print("]");
     }
 
+    public void reversedBubbleSort(ArrayList<Integer> arrayList, int arraySize){
+        for (int i=1; i<=arraySize-1; i++){
+            for (int j=0; j <= arraySize-i-1; j++){
+                if (arrayList.get(j) < arrayList.get(j+1)) {
+                    temp = arrayList.get(j);
+                    arrayList.set(j,arrayList.get(j+1));
+                    arrayList.set(j+1,temp);
+                }
+            }
+        }
+        System.out.println();
+        System.out.print("[");
+        printBubbleSort(arrayList, arraySize);
+        System.out.print("]");
+    }
+
     public void printBubbleSort(ArrayList<Integer> arrayList, int arraySize){
         for (int i=0; i<arraySize;i++){
             System.out.print(arrayList.get(i) + ",");
@@ -69,7 +85,8 @@ public class BubbleSort {
         System.out.print("]");
         System.out.println();
         System.out.println("El array ordenado queda de la siguiente manera:");
-        bubbleSort(arrayBubble,tamanoArray);
+        //bubbleSort(arrayBubble,tamanoArray);
+        reversedBubbleSort(arrayBubble,tamanoArray);
     }
 
 }
