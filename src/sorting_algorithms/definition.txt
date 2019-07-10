@@ -1,0 +1,24 @@
+Un algoritmo de ordenamiento es simple y sencillamente un algoritmo que se encargará
+de colocar en orden una secuencia dada convirtiendo un arreglo desordenado en un
+arreglo ordenado (Un arreglo que tiene un orden específicamente definido).
+
+Existen múltiples algoritmos de ordenamiento, y algunos de los más usados son:
+
+Merge Sort
+Utiliza el paradigma divide y vencerás, Dividiendo los elementos para compararlos
+y posteriormente volverlos a unir ordenados de la manera correcta.
+Es un algoritmo eficiente para muchos datos, pero no lo es tanto para pocos.
+
+Insertion Sort
+Vas comparando los elementos hasta que encuentren su lugar en la serie de 1 a 1.
+Es un algoritmo eficiente para serie de datos cortas, pero no para largas.
+
+Bubble Sort
+Se ordena por pares y se va repitiendo 1 a 1 hasta que queda totalmente ordenado,
+es muy iterativo, poco eficiente (por la cantidad de iteraciones), pero muy sencillo
+de ejecutar.
+
+Quick Sort
+Utiliza el paradigma divide and conquer, y va comparando desde las esquinas al
+centro, es muy eficiente para serie de datos largos por lo que es de los más importantes.
+

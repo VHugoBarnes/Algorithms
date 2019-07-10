@@ -1,5 +1,7 @@
 package algorithm_introduction;
 
+import java.util.Scanner;
+
 /**
  * <h1>Pasos para hacer un Queue.</h1>
  * 1.- Crear un pointer para saber que hay un front y ultimo.
@@ -59,6 +61,50 @@ public class Queue {
             }
             ultimo--;
         }
+    }
+
+    public void menuQueue(){
+        int menu = 0;
+        int nCliente;
+        int operacion = 0;
+
+        while (operacion != 2) {
+
+            System.out.println("Bienvenido al programa del restaurante.");
+            System.out.println("Elige una opción:");
+            System.out.println("1.- Atender cliente."); // deQueue().
+            System.out.println("2.- Registrar cliente."); // enQueue().
+            System.out.println("3.- Salir.");
+
+            Scanner scanner = new Scanner(System.in);
+
+            menu = scanner.nextInt();
+
+            switch (menu) {
+                case 1:
+                    deQueue();
+                    break;
+                case 2:
+                    System.out.println("Ingresa el número de cliente:");
+                    nCliente = scanner.nextInt();
+                    enQueue(nCliente);
+                    break;
+                case 3:
+                    break;
+                default:
+                    System.out.println("Opción incorrecta.");
+            }
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            System.out.println("¿Desea hacer otra operación?");
+            System.out.println("1.- Sí");
+            System.out.println("2.- No");
+            operacion = scanner.nextInt();
+        }
+        System.out.println("Programa finalizado.");
     }
 
 }
