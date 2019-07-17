@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd2f1502-1847-4ea7-afaf-9e2df8915c0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/recursion/Recursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sorting_algorithms/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recursion/Recursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursion/Recursion.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/recursion/Recursion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="41" column="5" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="-399">
+              <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -67,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1346" />
@@ -285,8 +281,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/recursion/Recursion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="-399">
+          <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
         </state>
       </provider>
     </entry>

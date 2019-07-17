@@ -31,7 +31,7 @@ public class Recursion {
      * La solución al problema 'más grande' puede ser resuelto convirtiendo el número
      * a un número más pequeño (de 1 en 1) hasta que se llegue al caso base.
      * */
-    public int factorial(int factorialNumber) {
+    public long factorial(int factorialNumber) {
 
         if (factorialNumber <= 1) { // <-- Caso base.
             return 1;
@@ -39,6 +39,36 @@ public class Recursion {
             return factorialNumber * factorial(factorialNumber-1);
         }
 
+    }
+
+    /**
+     * <h1>Función directa o indirecta</h1>
+     *
+     * Una función 'fun1' es llamada directamente si se llama a sí misma.
+     *
+     * Una función 'fun1' es llamada indirectamente si otra función 'fun2'
+     * la llama y ésta la llama de vuelta.
+     * */
+    class RecursividadDirectaIndirecta {
+        //Un ejemplo de recursividad directa.
+        public void funcion1() {
+            //Código...
+            funcion1();
+            //Código...
+        }
+
+        //Un ejemplo de recursividad indirecta.
+        public void funcionIndirecta1() {
+            //Código...
+            funcionIndirecta2();
+            //Código...
+        }
+
+        public void funcionIndirecta2() {
+            //Código...
+            funcionIndirecta1();
+            //Código...
+        }
     }
 
 }
