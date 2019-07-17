@@ -3,6 +3,7 @@
 //import java.util.Scanner;
 
 import sorting_algorithms.BubbleSort;
+import sorting_algorithms.InsertionSort;
 
 public class Main {
 
@@ -14,9 +15,13 @@ public class Main {
 
         //Queue cola = new Queue();
 
-        BubbleSort bubbleSort = new BubbleSort();
+        //BubbleSort bubbleSort = new BubbleSort();
 
-        bubbleSort.mainBubbleSort();
+        //bubbleSort.mainBubbleSort();
+
+        InsertionSort insertionSort = new InsertionSort();
+
+        insertionSort.mainInsertionSort();
 
     }
 }
