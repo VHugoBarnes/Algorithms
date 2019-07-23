@@ -71,4 +71,44 @@ public class Recursion {
         }
     }
 
+    /**
+     * <h1>reverseString</h1>
+     * Se invierte el contenido del String mediante recursión
+     * Ejemplo: "Keko kaka"
+     *
+     * La primera parte de la recursion y las llamadas anidadas del método.
+     *
+     * 1.-rts = "eko kaka" + K
+     * 2.-rts = "ko kaka" + e
+     * 3.-rts = "o kaka" + k
+     * 4.-rts = " kaka" + o
+     * 5.-rts = "kaka" + " "
+     * 6.-rts = "aka" + k
+     * 7.-rts = "ka" + a
+     * 8.-rts = "a" + k
+     * 9.-rts = "" + a
+     *
+     * La segunda parte del método recursivo.
+     * El método topa con el 'if' y la llamada al método más 'alta' se retorna
+     * automaticamente.
+     *
+     * 9.- rts " " + a = a
+     * 8.- rts "a" + k = ak
+     * 7.- rts "ka" + a = aka
+     * 6.- rts "aka" + k = akak
+     * 5.- rts "kaka" + ' ' = akak
+     * 4.- rts " kaka" + o = akak o
+     * 3.- rts "o kaka" + k = akak ok
+     * 2.- rts "ko kaka" + e = akak oke
+     * 1.- rts "eko kaka" + K = akak okeK
+     * */
+    public String reverseString(String str) {
+        if (str.isEmpty()) {
+            return str;
+        } else {
+            String rts = reverseString(str.substring(1)) + str.charAt(0);
+            return rts;
+        }
+    }
+
 }

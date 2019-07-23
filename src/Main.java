@@ -2,6 +2,7 @@
 //import algorithm_introduction.UserDefinedDataType;
 //import java.util.Scanner;
 
+import recursion.Recursion;
 import sorting_algorithms.BubbleSort;
 import sorting_algorithms.InsertionSort;
 
@@ -19,9 +20,13 @@ public class Main {
 
         //bubbleSort.mainBubbleSort();
 
-        InsertionSort insertionSort = new InsertionSort();
+        //InsertionSort insertionSort = new InsertionSort();
 
-        insertionSort.mainInsertionSort();
+        //insertionSort.mainInsertionSort();
+
+        Recursion recursion = new Recursion();
+
+        System.out.println(recursion.reverseString("Keko kaka"));
 
     }
 }
