@@ -14,4 +14,19 @@ package divide_and_conquer;
  * y luego unir las dos mitades.
  * */
 public class DivideAndConquer {
+
+    private int menu = 0;
+    MergeSort mergeSort = new MergeSort();
+
+    public void dacMenu() {
+        System.out.println("Divide and Conquer.");
+        System.out.println("1. MergeSort");
+
+        switch (menu) {
+            case 1:
+                MergeSort mergeSort = new MergeSort();
+                System.out.println("Ingresa un vector de 7 elementos:");
+        }
+    }
+
 }
