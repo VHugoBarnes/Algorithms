@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd2f1502-1847-4ea7-afaf-9e2df8915c0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/divide_and_conquer/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/recursion/Recursion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms/recursion/Recursion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/divide_and_conquer/DivideAndConquer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/divide_and_conquer/DivideAndConquer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
