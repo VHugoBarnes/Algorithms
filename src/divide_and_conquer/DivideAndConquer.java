@@ -26,6 +26,7 @@ public class DivideAndConquer {
             case 1:
                 MergeSort mergeSort = new MergeSort();
                 System.out.println("Ingresa un vector de 7 elementos:");
+                break;
         }
     }
 
