@@ -1,5 +1,7 @@
 package divide_and_conquer;
 
+import javax.sound.midi.SysexMessage;
+
 /**
  * Divide y vencerás es un paradigma de algoritmos.
  * Un programa típico de Divide y Vencerás resuelve un problema usando los siguientes
@@ -15,7 +17,7 @@ package divide_and_conquer;
  * */
 public class DivideAndConquer {
 
-    private int menu = 0;
+    private int menu = 1;
     MergeSort mergeSort = new MergeSort();
 
     public void dacMenu() {
@@ -25,7 +27,16 @@ public class DivideAndConquer {
         switch (menu) {
             case 1:
                 MergeSort mergeSort = new MergeSort();
-                System.out.println("Ingresa un vector de 7 elementos:");
+                int arr [] = {5,26,12,6,1,4,7};
+                int n = arr.length;
+
+                for (int i=0;i<n;i++){
+                    System.out.println(arr[i]);
+                }
+
+                System.out.println("Array ordenado");
+                mergeSort.sort(arr,0,n-1);
+                mergeSort.printArray(arr);
                 break;
         }
     }
