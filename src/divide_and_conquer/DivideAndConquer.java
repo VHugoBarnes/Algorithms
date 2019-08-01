@@ -1,7 +1,5 @@
 package divide_and_conquer;
 
-import javax.sound.midi.SysexMessage;
-
 /**
  * Divide y vencerás es un paradigma de algoritmos.
  * Un programa típico de Divide y Vencerás resuelve un problema usando los siguientes
