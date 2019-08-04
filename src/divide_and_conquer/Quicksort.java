@@ -18,6 +18,8 @@ package divide_and_conquer;
  * más pequeños (más pequeños que x) antes de x, y poner
  * todos los elementos más grandes (más grandes que x) después de x.
  * dodo ésto debe hacerce en tiempo lineal.
+ *
+ * @autor Víctor Vázquez
  * */
 public class Quicksort {
 
@@ -58,6 +60,7 @@ public class Quicksort {
      * arr[] --> array a ordenar.
      * low --> Índice inicial.
      * high --> Índice final.
+     *
      * */
     public void sort(int arr[], int low, int high) {
         if (low < high) {
