@@ -62,7 +62,7 @@ public class Quicksort {
     public void sort(int arr[], int low, int high) {
         if (low < high) {
             /*
-            * pi es 'partition index' (índice de partición)
+            * pi es 'partition index' (índice de partición).
             * */
             int pi = partition(arr,low,high);
 
