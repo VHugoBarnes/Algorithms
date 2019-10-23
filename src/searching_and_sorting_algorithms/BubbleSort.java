@@ -6,7 +6,7 @@
  * 2.- Repetimos hasta tener una pasada completa sin ningún 'swap'.
  * */
 
-package sorting_algorithms;
+package searching_and_sorting_algorithms;
 
 import java.util.ArrayList;
 import java.util.Scanner;

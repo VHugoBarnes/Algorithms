@@ -3,7 +3,7 @@ package algorithm_introduction;
 import java.util.Scanner;
 
 /**
- * <h1>Pasos para hacer un Queue.</h1>
+ * <h1>Pasos para hacer un algorithm_introduction.Queue.</h1>
  * 1.- Crear un pointer para saber que hay un front y ultimo.
  * 2.- Colocar éstos valores en -1 al inicializarlos.
  * 3.- Incrementar en 1 el valor de ultimo cuando agreguemos un elemento.
@@ -26,7 +26,7 @@ public class Queue {
     /**
      * Añade un elemento de la cola si y sólo si hay espacio en el array.
      * */
-    public void enQueue(int value) {
+    private void enQueue(int value) {
         if (ultimo == SIZE-1) {
             System.out.println("Nuesto Queue está lleno.");
         } else {
@@ -47,7 +47,7 @@ public class Queue {
      * array a la izquierda, haciendo que el primer elemento se pierda/elimine.
      *
      * */
-    public void deQueue() {
+    private void deQueue() {
         if (ultimo == -1) {
             System.out.println("Nuestro Queue está vacío.");
         }

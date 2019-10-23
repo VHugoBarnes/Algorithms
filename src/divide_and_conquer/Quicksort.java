@@ -20,7 +20,7 @@ package divide_and_conquer;
  * dodo ésto debe hacerce en tiempo lineal.
  *
  * @autor Víctor Vázquez
- * 
+ *
  * */
 public class Quicksort {
 

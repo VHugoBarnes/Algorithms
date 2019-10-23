@@ -1,4 +1,6 @@
-package recursion;
+package algorithm_introduction.recursion;
+
+import java.util.Scanner;
 
 /**
  * <h1>¿Qué es la recursión?</h1>
@@ -31,7 +33,7 @@ public class Recursion {
      * La solución al problema 'más grande' puede ser resuelto convirtiendo el número
      * a un número más pequeño (de 1 en 1) hasta que se llegue al caso base.
      * */
-    public long factorial(int factorialNumber) {
+    private long factorial(int factorialNumber) {
 
         if (factorialNumber <= 1) { // <-- Caso base.
             return 1;
@@ -76,7 +78,7 @@ public class Recursion {
      * Se invierte el contenido del String mediante recursión
      * Ejemplo: "Keko kaka"
      *
-     * La primera parte de la recursion y las llamadas anidadas del método.
+     * La primera parte de la algorithm_introduction.recursion y las llamadas anidadas del método.
      *
      * 1.-rts = "eko kaka" + K
      * 2.-rts = "ko kaka" + e
@@ -102,12 +104,41 @@ public class Recursion {
      * 2.- rts "ko kaka" + e = akak oke
      * 1.- rts "eko kaka" + K = akak okeK
      * */
-    public String reverseString(String str) {
+    private String reverseString(String str) {
         if (str.isEmpty()) {
             return str;
         } else {
             String rts = reverseString(str.substring(1)) + str.charAt(0);
             return rts;
+        }
+    }
+
+    /***/
+    public void recursionMenu() {
+        Scanner s = new Scanner(System.in);
+        int option = -1;
+
+        System.out.println("Basic recursion problems:");
+        System.out.println("1.- Factorial number.");
+        System.out.println("2.- Reverse given string.");
+
+        option = s.nextInt();
+
+        switch (option) {
+            case 1:
+                System.out.println("Give the number to show the factorial:");
+                int number = s.nextInt();
+                System.out.println(factorial(number));
+                break;
+            case 2:
+                System.out.println("Give the string to reverse it:");
+                String reverse = s.nextLine();
+                reverse = s.nextLine();
+                System.out.println(reverseString(reverse));
+                break;
+            default:
+                System.out.println("Wrong option.");
+                break;
         }
     }
 
